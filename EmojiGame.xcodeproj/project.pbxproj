@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		17366112291E9F35004ED4DA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 17366111291E9F35004ED4DA /* README.md */; };
+		17366115291EA0D5004ED4DA /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 17366113291EA0D5004ED4DA /* pic2.png */; };
+		17366116291EA0D5004ED4DA /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 17366114291EA0D5004ED4DA /* pic1.png */; };
 		17452A9B291E886E00EFA8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17452A9A291E886E00EFA8E7 /* AppDelegate.swift */; };
 		17452A9D291E886E00EFA8E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17452A9C291E886E00EFA8E7 /* SceneDelegate.swift */; };
 		17452A9F291E886E00EFA8E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17452A9E291E886E00EFA8E7 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		17366111291E9F35004ED4DA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		17366113291EA0D5004ED4DA /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
+		17366114291EA0D5004ED4DA /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
 		17452A97291E886E00EFA8E7 /* EmojiGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17452A9A291E886E00EFA8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17452A9C291E886E00EFA8E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				17452AA0291E886E00EFA8E7 /* Main.storyboard */,
 				17452AA3291E887000EFA8E7 /* Assets.xcassets */,
 				17452AA5291E887000EFA8E7 /* LaunchScreen.storyboard */,
+				17366114291EA0D5004ED4DA /* pic1.png */,
+				17366113291EA0D5004ED4DA /* pic2.png */,
 				17452AA8291E887000EFA8E7 /* Info.plist */,
 			);
 			path = EmojiGame;
@@ -235,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17452AA7291E887000EFA8E7 /* LaunchScreen.storyboard in Resources */,
+				17366115291EA0D5004ED4DA /* pic2.png in Resources */,
+				17366116291EA0D5004ED4DA /* pic1.png in Resources */,
 				17452AA4291E887000EFA8E7 /* Assets.xcassets in Resources */,
 				17366112291E9F35004ED4DA /* README.md in Resources */,
 				17452AA2291E886E00EFA8E7 /* Main.storyboard in Resources */,
