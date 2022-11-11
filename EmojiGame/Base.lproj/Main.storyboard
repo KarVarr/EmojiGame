@@ -35,8 +35,11 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="ElU-kJ-uhe"/>
                                                 </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Touch"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Touch">
+                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7l-sY-uo5"/>
                                                 </connections>
@@ -47,8 +50,11 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="bLB-ow-ta0"/>
                                                 </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Touch"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Touch">
+                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8BT-Fw-abl"/>
                                                 </connections>
@@ -64,8 +70,11 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="0Ks-ba-5Qf"/>
                                                 </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Touch"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Touch">
+                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rzl-Jh-cah"/>
                                                 </connections>
@@ -76,8 +85,11 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="5IX-WL-I86"/>
                                                 </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Touch"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Touch">
+                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFg-GV-yps"/>
                                                 </connections>

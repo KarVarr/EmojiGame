@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     
     var labelCounter = 0
     
+    let emojiArray = ["🏀", "⚾️", "🏀", "⚾️"]
+    
     @IBOutlet weak var textFields: UILabel!
     @IBOutlet var buttonCollection: [UIButton]!
     
@@ -19,12 +21,15 @@ class ViewController: UIViewController {
         textFields.text = "Flips: \(labelCounter)"
         
         if sender.currentTitle == "Touch" {
-            sender.setTitle("⚽️", for: .normal)
+            sender.setTitle(emojiArray[buttonCollection.firstIndex(of: sender) ?? 0], for: .normal)
             sender.backgroundColor = UIColor.white
         } else {
             sender.setTitle("Touch", for: .normal)
-            sender.backgroundColor = UIColor.purple
+            sender.backgroundColor = UIColor.orange
         }
+        
+        
+        
     }
     
     
