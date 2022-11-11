@@ -8,15 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-   
-    @IBOutlet weak var textFields: UILabel!
     
-
+    var labelCounter = 0
+    
+    @IBOutlet weak var textFields: UILabel!
+    @IBOutlet var buttonCollection: [UIButton]!
     
     @IBAction func buttonAction(_ sender: UIButton) {
+        labelCounter += 1
+        textFields.text = "Flips: \(labelCounter)"
         
-        
+        if sender.currentTitle == "Touch" {
+            sender.setTitle("⚽️", for: .normal)
+            sender.backgroundColor = UIColor.white
+        } else {
+            sender.setTitle("Touch", for: .normal)
+            sender.backgroundColor = UIColor.purple
+        }
     }
     
     
