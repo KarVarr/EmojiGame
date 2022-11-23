@@ -9,12 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var labelCounter = 0
+    lazy var game = ConcentrationGame(numberOfPairsOfCards: (buttonCollection.count + 1) / 2)
+      
     
+    var labelCounter = 0
     let emojiArray = ["🏀", "⚾️", "🏀", "⚾️"]
     
     @IBOutlet weak var textFields: UILabel!
     @IBOutlet var buttonCollection: [UIButton]!
+    
+    
+    func updateViewFromModel() {
+        for index in buttonCollection.indices {
+            let button = buttonCollection[index]
+            let card = game.cards[index]
+            if card.isFaceUp {
+                
+            }
+        }
+    }
     
     @IBAction func buttonAction(_ sender: UIButton) {
         labelCounter += 1
@@ -23,12 +36,13 @@ class ViewController: UIViewController {
         if sender.currentTitle == "Touch" {
             sender.setTitle(emojiArray[buttonCollection.firstIndex(of: sender) ?? 0], for: .normal)
             sender.backgroundColor = UIColor.white
+            
+            updateViewFromModel()
+            
         } else {
             sender.setTitle("Touch", for: .normal)
             sender.backgroundColor = UIColor.orange
         }
-        
-        
         
     }
     
